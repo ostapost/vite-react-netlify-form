@@ -1,8 +1,4 @@
 export const Form = () => {
-    const obj = {
-        first: 1,
-        second: 2,
-    };
     return (
         <form
             name="contact"
@@ -15,42 +11,32 @@ export const Form = () => {
                 value="contact"
             />
             <p>
-                <label htmlFor="name">INFO</label> <br />
-                <p>Якісь покупки ! </p>
-                <hr />
-                <p>Перша</p>
-                <hr />
-                <p>Друга</p>
-                <hr />
-                <p>Третя</p>
-                <hr />
-                <textarea
-                    // type="hidden"
-                    value={obj.first}
-                    // required
+                <label htmlFor="name">Name</label> <br />
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
                 />
             </p>
             <p>
-                <label>Last Name</label> <br />
+                <label htmlFor="email">Email</label> <br />
                 <input
-                    type="text"
+                    type="email"
                     id="email"
-                    name="Last"
-                    // required
+                    name="email"
                 />
             </p>
-            {/* <p>
+            <p>
                 <label htmlFor="message">Message</label> <br />
                 <textarea
                     id="message"
                     name="message"
-                    // required
                 ></textarea>
-            </p> */}
+            </p>
             <p>
                 <input
                     type="submit"
-                    value="Відправити покупки на Пошту"
+                    value="Submit message"
                 />
             </p>
         </form>
