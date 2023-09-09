@@ -1,28 +1,27 @@
 export const Form = () => {
     return (
         <form
-            name="contact"
+            name="contact 1"
             method="post"
             data-netlify="true"
+            onSubmit="submit"
         >
             <input
                 type="hidden"
                 name="form-name"
-                value="contact"
+                value="contact v1"
             />
             <p>
-                <label htmlFor="name">Name </label> <br />
+                <label> First Name </label> <br />
                 <input
                     type="text"
-                    id="name"
-                    name="name"
+                    name="first-name"
                 />
             </p>
             <p>
-                <label htmlFor="last-name">Last Name </label> <br />
+                <label>Last Name </label> <br />
                 <input
                     type="text"
-                    id="last-name"
                     name="last-name"
                 />
             </p>
@@ -35,11 +34,8 @@ export const Form = () => {
                 />
             </p>
             <p>
-                <label htmlFor="message2">Message </label> <br />
-                <textarea
-                    id="message"
-                    name="message"
-                ></textarea>
+                <label>Message </label> <br />
+                <textarea name="message"></textarea>
             </p>
             <p>
                 <input
