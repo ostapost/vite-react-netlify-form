@@ -11,26 +11,34 @@ export const Form = () => {
                 value="contact"
             />
             <p>
-                <label htmlFor="name1">Name Hyu</label> <br />
+                <label htmlFor="name">Name </label> <br />
                 <input
                     type="text"
-                    id="name1"
-                    name="name1"
+                    id="name"
+                    name="name"
                 />
             </p>
             <p>
-                <label htmlFor="email3">Email Hyu</label> <br />
+                <label htmlFor="last-name">Last Name </label> <br />
+                <input
+                    type="text"
+                    id="last-name"
+                    name="last-name"
+                />
+            </p>
+            <p>
+                <label htmlFor="email">Email </label> <br />
                 <input
                     type="email"
-                    id="email3"
-                    name="email3"
+                    id="email"
+                    name="email"
                 />
             </p>
             <p>
-                <label htmlFor="message2">Message Hyu</label> <br />
+                <label htmlFor="message2">Message </label> <br />
                 <textarea
-                    id="message2"
-                    name="message2"
+                    id="message"
+                    name="message"
                 ></textarea>
             </p>
             <p>
