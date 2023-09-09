@@ -26,19 +26,19 @@ export const Form = () => {
                 <hr />
                 <textarea
                     // type="hidden"
-                    value={obj}
+                    value={obj.first}
                     // required
                 />
             </p>
-            {/* <p>
-                <label htmlFor="email">Email</label> <br />
+            <p>
+                <label>Last Name</label> <br />
                 <input
-                    type="email"
+                    type="text"
                     id="email"
-                    name="email"
+                    name="Last"
                     // required
                 />
-            </p> */}
+            </p>
             {/* <p>
                 <label htmlFor="message">Message</label> <br />
                 <textarea
