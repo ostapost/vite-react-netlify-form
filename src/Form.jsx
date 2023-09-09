@@ -3,6 +3,7 @@ export const Form = () => {
         <form
             name="contact"
             method="post"
+            data-netlify="true"
         >
             <input
                 type="hidden"
@@ -15,7 +16,7 @@ export const Form = () => {
                     type="text"
                     id="name"
                     name="name"
-                    required
+                    // required
                 />
             </p>
             <p>
@@ -24,7 +25,7 @@ export const Form = () => {
                     type="email"
                     id="email"
                     name="email"
-                    required
+                    // required
                 />
             </p>
             <p>
@@ -32,7 +33,7 @@ export const Form = () => {
                 <textarea
                     id="message"
                     name="message"
-                    required
+                    // required
                 ></textarea>
             </p>
             <p>
