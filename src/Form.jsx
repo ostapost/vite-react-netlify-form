@@ -24,8 +24,8 @@ export const Form = () => {
                 <hr />
                 <p>Третя</p>
                 <hr />
-                <input
-                    type="hidden"
+                <textarea
+                    // type="hidden"
                     value={obj}
                     // required
                 />
