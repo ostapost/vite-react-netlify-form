@@ -4,7 +4,7 @@ export const Form = () => {
             name="contact 1"
             method="post"
             data-netlify="true"
-            onSubmit="submit"
+            // onSubmit="submit"
         >
             <input
                 type="hidden"
